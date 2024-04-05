@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cloud.tictactoe.TicTacToeApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-05T11:07:25" hostname="DESKTOP-CK6Q28I" time="1.026">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.cloud.tictactoe.TicTacToeApplicationTests" time="1.026"/>
+  <system-out><![CDATA[13:07:22.579 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.cloud.tictactoe.TicTacToeApplicationTests]: TicTacToeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:07:22.741 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.cloud.tictactoe.TicTacToeApplication for test class com.cloud.tictactoe.TicTacToeApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-04-05T13:07:23.307+02:00  INFO 5284 --- [tic-tac-toe] [    Test worker] c.c.tictactoe.TicTacToeApplicationTests  : Starting TicTacToeApplicationTests using Java 17 with PID 5284 (started by Marta in C:\Users\mati2\Documents\Semestr_6\Chmurki_LAB\tic-tac-toe)
+2024-04-05T13:07:23.309+02:00  INFO 5284 --- [tic-tac-toe] [    Test worker] c.c.tictactoe.TicTacToeApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-04-05T13:07:25.105+02:00  INFO 5284 --- [tic-tac-toe] [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2024-04-05T13:07:25.107+02:00  INFO 5284 --- [tic-tac-toe] [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@174721c4]]
+2024-04-05T13:07:25.109+02:00  INFO 5284 --- [tic-tac-toe] [    Test worker] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2024-04-05T13:07:25.127+02:00  INFO 5284 --- [tic-tac-toe] [    Test worker] c.c.tictactoe.TicTacToeApplicationTests  : Started TicTacToeApplicationTests in 2.149 seconds (process running for 4.011)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
